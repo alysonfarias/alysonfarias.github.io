@@ -1,0 +1,61 @@
+*{
+    padding:0;
+    margin: 0;
+    font-family: 'Teko', sans-serif;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: #9b9c83;
+    font-weight: 400;
+}
+
+body{
+    height: 100vh;
+    background: url(../imgs/paradise.jpg) no-repeat center;
+    background-size:cover;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+
+.card{
+    box-shadow: 1px 1px 20px rgb(0, 0, 0);
+}
+.top-card{
+    padding-right: 20px;
+}
+.upper-card{
+    background-color: rgba(0, 0, 0, 0.85);
+    border-radius: .2rem .2rem 0 0;
+    height:200px;
+    width:320px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bottom-card{
+    background-color: rgba(0, 0, 0, 0.85);
+    border-radius:0 0 .2rem .2rem;
+    height:100px;
+    width:320px;
+    display: flex;
+    justify-content:center;
+}
+.bottom-card a{
+    margin: 10px
+}
+.bottom-card a:hover{
+    transform:scale(1.15);
+    
+}
+
+.mid-card img{
+    border-radius: 50%;
+}
+/* small{
+    color: blanchedalmond;
+    font-weight: 300;
+} */
+.icon-color{
+    color: #e9ebbf;
+}
