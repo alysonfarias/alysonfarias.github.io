@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alyson Farias</title>
+    
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
+
+    <!-- Remix Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+    <!-- Header Profile -->
+    <header class="profile container">
+        <!-- Theme Button -->
+        <i class="ri-moon-line change-theme" id="theme-button"></i>
+
+        <div class="profile_container grid">
+            <div class="profile_data">
+                <div class="profile_border">
+                    <div class="">
+                        <!-- Insert your image -->
+                        <img src="assets/images/profile.png" alt="Profile Picture">
+                    </div>
+                </div>
+                <h2 class="profile_name">Alyson Farias</h2>
+                <h3 class="profile_profession">FullStack Developer</h3>
+
+                <ul class="profile_social">
+                    <a href="https://www.instagram.com/alysonfarias/" target="_blank" class="profile_social_link">
+                        <i class="ri-instagram-line"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/alysonfarias/" target="_blank" class="profile_social_link">
+                        <i class="ri-linkedin-box-line"></i>
+                    </a>
+                    <a href="https://github.com/alysonfarias" target="_blank" class="profile_social_link">
+                        <i class="ri-github-line"></i>
+                    </a>
+                </ul>
+            </div>
+
+            <!-- <div class="profile_info grid">
+                <div class="profile_info_group">
+                    <h3 class="profile_info_number">?</h3>
+                    <p class="profile_info_description">Months of <br> work</p>
+                </div>
+                <div class="profile_info_group">
+                    <h3 class="profile_info_number">?</h3>
+                    <p class="profile_info_description">Completed <br> projects</p>
+                </div>
+                <div class="profile_info_group">
+                    <h3 class="profile_info_number">?</h3>
+                    <p class="profile_info_description">Satisfied <br> customers</p>
+                </div>
+            </div> -->
+
+        <div class="profile_buttons">
+                <a href="assets/pdf/CV-AlysonFarias.pdf" download="" class="button">
+                    Download CV <i class="ri-download-line"></i>
+                </a>
+
+            <div class="profile_buttons_small">
+                <a href="https://api.whatsapp.com/send/?phone=5581989638368&text=I have a project, could we talk about it?!" target="_blank" class="button button_small button_gray">
+                    <i class="ri-whatsapp-line"></i>
+                </a>
+                <a href="mailto: ramos.alysonfarias@gmail.com" target="_blank" class="button button_small button_gray">
+                    <i class="ri-mail-line"></i>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main -->
+    <main class="main">
+        <section class="filters container">
+            <ul class="filters_content">
+                <button class="filters_button filter-tab-active" data-target="#projects">
+                    Projects
+                </button>
+
+                <button class="filters_button" data-target="#skills">
+                    Skills
+                </button>
+            </ul>
+            <div class="filters_sections">
+                <div class="projects_content grid filters_active" data-content id="projects">
+                   
+                    <article class="projects_card">
+                        <img src="assets/images/CleanArchitecture.jpg" alt="Project 1" class="projects_img">
+                        <div class="projects_modal">
+                            <div>
+                                <span class="projects_subtitle">Backend using Clean Architecture, Repository, UoW and others patterns</span>
+                                    <h3 class="projects_title"></h3>
+                                    <a href="https://github.com/alysonfarias/Myra.API" class="projects_button button button_small">
+                                        <i class="ri-link"></i>
+                                    </a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+
+                <!-- Skills -->
+                <div class="skills_content grid" data-content id="skills">
+                    <div class="skills_area">
+                        <h3 class="skills_title">
+                            Front-end Developer
+                        </h3>
+                        <div class="skills_box">
+                            <div class="skills_group">
+                                <div class="skills_data">
+                                    <i class="ri-checkbox-circle-line"></i>
+                                    <div>
+                                        <h3 class="skills_name">HTML</h3>
+                                        <span class="skills_level">Proficient</span>
+                                    </div>
+                                </div>
+                                
+                                <div class="skills_data">
+                                    <i class="ri-checkbox-circle-line"></i>
+                                    <div>
+                                        <h3 class="skills_name">CSS</h3>
+                                        <span class="skills_level">Proficient</span>
+                                    </div>
+                                </div>
+
+                                <div class="skills_data">
+                                    <i class="ri-checkbox-circle-line"></i>
+                                    <div>
+                                        <h3 class="skills_name">JavaScript</h3>
+                                        <span class="skills_level">Proficient</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="skills_group">
+                                <div class="skills_data">
+                                    <i class="ri-checkbox-circle-line"></i>
+                                    <div>
+                                        <h3 class="skills_name">Angular</h3>
+                                        <span class="skills_level">Proficient</span>
+                                    </div>
+                                </div>
+                                
+                                <div class="skills_data">
+                                    <i class="ri-checkbox-circle-line"></i>
+                                    <div>
+                                        <h3 class="skills_name">Bootstrap</h3>
+                                        <span class="skills_level">Proficient</span>
+                                    </div>
+                                </div>
+
+                                <div class="skills_data">
+                                    <i class="ri-checkbox-circle-line"></i>
+                                    <div>
+                                        <h3 class="skills_name">Git</h3>
+                                        <span class="skills_level">Proficient</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skills_area">
+                        <h3 class="skills_title">
+                            Back-end Developer
+                        </h3>
+                        <div class="skills_box">
+                            <div class="skills_group">
+                                <div class="skills_data">
+                                    <i class="ri-checkbox-circle-line"></i>
+                                    <div>
+                                        <h3 class="skills_name">SQL Server</h3>
+                                        <span class="skills_level">Intermediate</span>
+                                    </div>
+                                </div>
+                                
+                                <div class="skills_data">
+                                    <i class="ri-checkbox-circle-line"></i>
+                                    <div>
+                                        <h3 class="skills_name">.NET</h3>
+                                        <span class="skills_level">Intermediate</span>
+                                    </div>
+                                </div>
+
+                                <div class="skills_data">
+                                    <i class="ri-checkbox-circle-line"></i>
+                                    <div>
+                                        <h3 class="skills_name">Firebase</h3>
+                                        <span class="skills_level">Basic</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="skills_group">
+                                <div class="skills_data">
+                                    <i class="ri-checkbox-circle-line"></i>
+                                    <div>
+                                        <h3 class="skills_name">C#</h3>
+                                        <span class="skills_level">Proficient</span>
+                                    </div>
+                                </div>
+                                
+                                <div class="skills_data">
+                                    <i class="ri-checkbox-circle-line"></i>
+                                    <div>
+                                        <h3 class="skills_name">Entity Framework</h3>
+                                        <span class="skills_level">Intermediate</span>
+                                    </div>
+                                </div>
+
+                                <div class="skills_data">
+                                    <i class="ri-checkbox-circle-line"></i>
+                                    <div>
+                                        <h3 class="skills_name">NodeJS</h3>
+                                        <span class="skills_level">Basic</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer container">
+        <span class="footer_copy">
+            &#169; Alyson Farias.
+        </span>
+    </footer>
+
+    <!-- Scroll Reveal -->
+    <script src="assets/js/scrollreveal.min.js"></script>
+
+    <!-- Main JS -->
+    <script src="assets/js/main.js"></script>
+
+</body>
+</html>
